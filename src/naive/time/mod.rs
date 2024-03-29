@@ -338,7 +338,7 @@ impl NaiveTime {
 
     /// Makes a new `NaiveTime` from hour, minute, second and microsecond.
     ///
-    /// The microsecond part is allowed to exceed 1,000,000,000 in order to represent a
+    /// The microsecond part is allowed to exceed 1,000,000 in order to represent a
     /// [leap second](#leap-second-handling), but only when `sec == 59`.
     ///
     /// # Panics
